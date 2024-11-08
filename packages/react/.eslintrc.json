@@ -1,0 +1,3 @@
+{
+  "extends": "@ignite-design-system/eslint-config"
+}
