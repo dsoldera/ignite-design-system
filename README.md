@@ -11,5 +11,5 @@ An Ignite Design System Project
 - [ ] Avatar
 - [ ] MultiStep
 
-## Run
-- 
+## Run Turbo
+- will execute all scripts all the same time
