@@ -10,3 +10,6 @@ An Ignite Design System Project
 - [ ] Checkbox
 - [ ] Avatar
 - [ ] MultiStep
+
+## Run
+- 
