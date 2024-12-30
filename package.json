@@ -4,7 +4,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "turbo run dev --parallel",
+    "dev:turbo": "turbo run dev --parallel",
     "build": "turbo run build",
     "check-types": "tsc --noEmit"
   },
