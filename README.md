@@ -7,7 +7,7 @@ To run the Storybook, go to the folder docs and run:
 
 Will open at the port 6006
 
-## Run Turbo
+## Run Turbo`
 This project is using Turbo tp manage the build of all the packages. To start and run the turbo watch run in the root of this project: 
 
 - `npm run dev:turbo`

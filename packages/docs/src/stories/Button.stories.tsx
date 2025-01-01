@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@ignite-design-system/react'
+import { Button, ButtonProps as OriginalButtonProps } from '@ignite-design-system/react'
 import type { Meta, StoryObj } from '@storybook/react'
 import { ArrowRight } from 'phosphor-react'
 
@@ -11,6 +11,13 @@ export default {
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
+
+interface ButtonProps extends OriginalButtonProps {
+  children?: React.ReactNode;
+  variant?: string;
+  size?: string;
+  disabled?: boolean;
+}
 
 export const Secondary: StoryObj<ButtonProps> = {
   args: {
