@@ -9,6 +9,7 @@
     "build": "storybook build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "deploy-storybook": "storybook-to-ghpages", 
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
@@ -17,8 +18,9 @@
     "@ignite-design-system/react": "*",
     "@ignite-design-system/tokens": "*",
     "@ignite-design-system/tsconfig": "*",
-    "polished": "^4.3.1",
+    "@storybook/addon-a11y": "^8.4.7",
     "phosphor-react": "^1.4.1",
+    "polished": "^4.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -32,6 +34,7 @@
     "@storybook/manager-api": "^8.4.7",
     "@storybook/react": "^8.4.7",
     "@storybook/react-vite": "^8.4.7",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^8.4.7",
     "@storybook/theming": "^8.4.7",
     "@types/node": "^22.10.2",
