@@ -37,7 +37,7 @@ const config: StorybookConfig = {
       // Your development configuration goes here
     }
     if (configType === 'PRODUCTION') {
-      config.base = '/05-design-system/'
+      config.base = '/ignite-design-system/'
     }
     return mergeConfig(config, {
       // Your environment configuration here
