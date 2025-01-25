@@ -11,8 +11,6 @@ function getAbsolutePath(value: string): any {
 }
 const config: StorybookConfig = {
   stories: [
-    // "../src/**/*.mdx", 
-    // "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)",
     "../src/pages/**/*.mdx",
     "../src/stories/**/*.stories.tsx",
   ],
@@ -27,18 +25,17 @@ const config: StorybookConfig = {
     name: getAbsolutePath("@storybook/react-vite"),
     options: {},
   },
-  docs: {
-    autodocs: true,
-  },
   async viteFinal(config, { configType }) {
     const { mergeConfig } = await import('vite');
  
     if (configType === 'DEVELOPMENT') {
       // Your development configuration goes here
     }
+
     if (configType === 'PRODUCTION') {
       config.base = '/ignite-design-system/'
     }
+
     return mergeConfig(config, {
       // Your environment configuration here
     });

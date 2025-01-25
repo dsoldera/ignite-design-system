@@ -1,7 +1,7 @@
 {
   "name": "@dsoldera-ignite-design-system/docs",
   "private": true,
-  "version": "1.0.0",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,7 +9,7 @@
     "build": "storybook build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy-storybook": "storybook-to-ghpages", 
+    "deploy-storybook": "storybook-to-ghpages",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },

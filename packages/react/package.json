@@ -1,6 +1,6 @@
 {
   "name": "@dsoldera-ignite-design-system/react",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
