@@ -23,5 +23,5 @@
     "noUncheckedSideEffectImports": true
   },
   "include": ["src"],
-  "extends": "@ignite-design-system/tsconfig/react.json"
+  "extends": "@dsoldera-ignite-design-system/tsconfig/react.json"
 }

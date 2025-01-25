@@ -1,4 +1,4 @@
 {
-  "extends": "@ignite-design-system/tsconfig/base.json",
+  "extends": "@dsoldera-ignite-design-system/tsconfig/base.json",
   "include": ["src"]
 }

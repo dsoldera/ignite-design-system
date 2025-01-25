@@ -1,5 +1,5 @@
 
-import { Button } from '@ignite-design-system/react';
+import { Button } from '@dsoldera-ignite-design-system/react';
 import './header.css';
 
 type User = {

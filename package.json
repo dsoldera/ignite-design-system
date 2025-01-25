@@ -6,9 +6,13 @@
   "scripts": {
     "dev:turbo": "turbo run dev --parallel",
     "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=packages/docs && changeset publish",
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.12",
     "turbo": "^2.3.3"
   },
   "packageManager": "npm@8.5.0"

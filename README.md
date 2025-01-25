@@ -1,4 +1,4 @@
-# ignite-design-system
+# dsoldera ignite-design-system
 An Ignite Design System Project
 
 ## Docs
@@ -14,13 +14,19 @@ This project is using Turbo tp manage the build of all the packages. To start an
 
 Running this turbo features wont be necessary to run build internally for each package. It will execute all scripts all the same time.
 
+## Changeset
+
+To run the Changeset to check what changed:
+- `npm run changeset`
+
+
 ## React Components
 - [X] Box
-- [ ] Button
-- [ ] Heading
+- [x] Button
+- [x] Heading
 - [x] Text
-- [ ] TextInput
-- [ ] Textarea
-- [ ] Checkbox
-- [ ] Avatar
-- [ ] MultiStep
+- [x] TextInput
+- [x] Textarea
+- [x] Checkbox
+- [x] Avatar
+- [x] MultiStep

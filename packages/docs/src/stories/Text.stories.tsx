@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
 
-import { TextProps as OriginalTextProps, Text } from '@ignite-design-system/react';
+import { TextProps as OriginalTextProps, Text } from '@dsoldera-ignite-design-system/react';
 
 interface TextProps extends OriginalTextProps {
   children?: React.ReactNode;

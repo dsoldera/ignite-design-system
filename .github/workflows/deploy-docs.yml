@@ -28,4 +28,4 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-# git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/dsoldera/ignite-design-system
+# git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/dsoldera/dsoldera-ignite-design-system

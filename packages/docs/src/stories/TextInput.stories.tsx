@@ -1,4 +1,4 @@
-import { Box, TextInputProps as OriginalTextInput, Text, TextInput } from '@ignite-design-system/react';
+import { Box, TextInputProps as OriginalTextInput, Text, TextInput } from '@dsoldera-ignite-design-system/react';
 import type { Meta, StoryObj } from '@storybook/react';
 
 export default {

@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-design-system/react",
+  "name": "@dsoldera-ignite-design-system/react",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -13,9 +13,9 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@ignite-design-system/eslint-config": "*",
-    "@ignite-design-system/tokens": "*",
-    "@ignite-design-system/tsconfig": "*",
+    "@dsoldera-ignite-design-system/eslint-config": "*",
+    "@dsoldera-ignite-design-system/tokens": "*",
+    "@dsoldera-ignite-design-system/tsconfig": "*",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "react": "^19.0.0",

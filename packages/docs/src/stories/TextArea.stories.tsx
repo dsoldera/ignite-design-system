@@ -1,4 +1,4 @@
-import { Box, TextAreaProps as OriginalTextAreaProps, Text, TextArea } from '@ignite-design-system/react';
+import { Box, TextAreaProps as OriginalTextAreaProps, Text, TextArea } from '@dsoldera-ignite-design-system/react';
 import type { Meta, StoryObj } from '@storybook/react';
 
 interface TextAreaProps extends OriginalTextAreaProps {

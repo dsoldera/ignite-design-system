@@ -1,4 +1,4 @@
-import { Heading, HeadingProps as OriginalHeadingProps } from '@ignite-design-system/react';
+import { Heading, HeadingProps as OriginalHeadingProps } from '@dsoldera-ignite-design-system/react';
 import type { Meta, StoryObj } from '@storybook/react';
 
 export default {

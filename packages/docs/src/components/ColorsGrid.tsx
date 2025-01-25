@@ -1,5 +1,5 @@
 
-import { colors } from '@ignite-design-system/tokens'
+import { colors } from '@dsoldera-ignite-design-system/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {
