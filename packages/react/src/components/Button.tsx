@@ -1,9 +1,9 @@
-import { ComponentProps, ElementType } from 'react';
+import { ComponentProps, ElementType } from 'react'
 
-import { styled } from '../styles';
+import { styled } from '../styles'
 
 export const Button = styled('button', {
-  all: 'unset',// reset all the styles enabled by default
+  all: 'unset', // reset all the styles enabled by default
   borderRadius: '$sm',
   fontSize: '$sm',
   fontWeight: '$medium',
@@ -25,6 +25,10 @@ export const Button = styled('button', {
 
   '&:disabled': {
     cursor: 'not-allowed',
+  },
+
+  '&:focus': {
+    boxShadow: '0 0 0 2px $colors$gray100',
   },
 
   variants: {

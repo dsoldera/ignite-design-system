@@ -1,4 +1,12 @@
-import { colors, fonts, fontSizes, fontWeights, lineHeights, radii, space } from '@dsoldera-ignite-design-system/tokens'
+import {
+  colors,
+  fonts,
+  fontSizes,
+  fontWeights,
+  lineHeights,
+  radii,
+  space,
+} from '@dsoldera-ignite-design-system/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

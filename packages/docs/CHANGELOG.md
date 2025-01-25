@@ -1,5 +1,16 @@
 # @dsoldera-ignite-design-system/docs
 
+## 1.1.0
+
+### Minor Changes
+
+- update react styles
+
+### Patch Changes
+
+- Updated dependencies
+  - @dsoldera-ignite-design-system/react@2.1.0
+
 ### Patch Changes
 
 - Updated dependencies

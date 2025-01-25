@@ -72,6 +72,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
     ),
   },
 }
+
 export const Disabled: StoryObj<ButtonProps> = {
   args: {
     disabled: true,

@@ -4,7 +4,22 @@ import type { Meta, StoryObj } from '@storybook/react';
 export default {
   title: 'Form/Text Input',
   component: TextInput,
-  args: {},
+  args: {
+    size: 'md',
+  },
+  argTypes: {
+    size: {
+      options: ['sm', 'md'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+    disabled: {
+      control: {
+        type: 'boolean',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -23,6 +38,7 @@ export default {
 interface TextInputProps extends OriginalTextInput {
   children?: React.ReactNode;
   placeholder?: string;
+  size?: string;
   disabled?: boolean;
 }
 
@@ -41,5 +57,6 @@ export const Disabled: StoryObj<TextInputProps> = {
 export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'prefix-call-example.com/',
+    placeholder: 'your-username',
   },
 }

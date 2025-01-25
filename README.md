@@ -17,8 +17,9 @@ Running this turbo features wont be necessary to run build internally for each p
 ## Changeset
 
 To run the Changeset to check what changed:
-- `npm run changeset`
-
+- `npm run changeset`  to select the changes that want to change the version
+- `npm run version-packages` to insert the value automatically inside the packages
+- `npm run release` to build and publish the package inside npm
 
 ## React Components
 - [X] Box
